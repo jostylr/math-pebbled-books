@@ -108,6 +108,8 @@ The symmetry argument follows from imagining flipping the picture around or
 flipping it up and down. There should be no difference and thus the segments
 must be equal and the angles congruent. 
 
+![Circle](img/circle.pdf)
+
 This construction relies very much on the existence of the intersection
 points. In a coordinate based solution, the coordinates will involve
 irrational numbers. The existence of the intersection therefore depends on the
@@ -118,6 +120,7 @@ centers at the endpoints but that just touch, that is, they intersect at
 just one point. That point will be the midpoint (by symmetry), and the unique
 line that intersects the circles at exactly that point will be perpendicular
 to the line segment. 
+
 
 ## Area
 
@@ -181,8 +184,8 @@ The proof here is a bit algebraic and a bit geometric. Given right triangle
 with side lengths a, b, and hypotenuse length c, form the square with side lengths a+b. Inside
 the rectangle draw four copies of the original right triangle, one for each
 right angle in the rectangle. This forms a square inside with side length c.
-The rectangle area is therefore both $(a+b)^2 = a^2 + 2ab + b^2$ as well as $
-4* \tfrac{ab}{2} + c^2$ which leads to $a^2 + b^2 = c^2$. 
+The rectangle area is therefore both $(a+b)^2 = a^2 + 2ab + b^2$ as well as 
+$4* \tfrac{ab}{2} + c^2$ which leads to $a^2 + b^2 = c^2$. 
 
 We will employ the term quadrance for the length squared. If P, Q, and R are
 the squares of the side lengths a, b, and c,  then the Pythagorean Theorem can
