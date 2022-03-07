@@ -108,8 +108,6 @@ The symmetry argument follows from imagining flipping the picture around or
 flipping it up and down. There should be no difference and thus the segments
 must be equal and the angles congruent. 
 
-![Circle](img/circle.pdf)
-
 This construction relies very much on the existence of the intersection
 points. In a coordinate based solution, the coordinates will involve
 irrational numbers. The existence of the intersection therefore depends on the
@@ -135,7 +133,7 @@ repeatedly to get a full rectangle with both sides doubled and the area ends
 up being quadrupled. If we did this such that each side was tripled, we would
 get 9 original rectangles and 9 times the area. 
 
-By working that out, we realize the formula for area is  Length*Width*fundamental unit
+By working that out, we realize the formula for area is  Length\*Width\*fundamental unit
 area. We will ignore the fundamental unit area in formulas, but it is very
 important to understand that it is there and is why we say things like square
 feet. 
@@ -152,11 +150,11 @@ Given a right triangle, we can construct a rectangle by flipping it across the
 hypotenuse. The length and width of the triangle, generally called base and
 height, becomes that of the rectangle. We know the rectangle's area is
 base*height and since there were two triangles, the area of each triangle is
-half that of the rectangle. So b*h/2. 
+half that of the rectangle. So b\*h/2. 
 
 For general triangles, we pick a vertex and drop the perpendicular to the
 opposite side. The length of that segment is the height. The base is the
-length of the opposite side. The area is then b*h/2.  
+length of the opposite side. The area is then b\*h/2.  
 
 To see that, we need two cases. If the perpendicular is within the original
 triangle, we get two right triangles whose areas sum to the original. They
@@ -216,6 +214,9 @@ We can attempt to measure this directly by drawing a circle whose center is
 the vertex of the angle. It will be cut by the two lines into four arcs,
 with opposing arcs being congruent. An angle is a right angle exactly when all four arcs are
 congruent to one another. If it is not a right angle, there is a smaller arc
-and a larger arc whose combination is 
+and a larger arc whose combination will be half the circle.  The smaller angle
+is called an acute angle and the larger is an obtuse angle. 
+
+
 
 
