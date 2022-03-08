@@ -208,7 +208,7 @@ embedded in a right triangle and we can summarize that right triangle in a
 single number. There are multiple representations one can choose, but we will
 primarily use what is called spread.  
 
-## Linear Angle Measure
+### Linear Angle Measure
 
 We can attempt to measure this directly by drawing a circle whose center is
 the vertex of the angle. It will be cut by the two lines into four arcs,
@@ -216,6 +216,34 @@ with opposing arcs being congruent. An angle is a right angle exactly when all f
 congruent to one another. If it is not a right angle, there is a smaller arc
 and a larger arc whose combination will be half the circle.  The smaller angle
 is called an acute angle and the larger is an obtuse angle. 
+
+To get a measure, we need to measure the length of the arc as a fraction of
+the total circle length and scale it appropriately. To do the straightforward
+fraction taking, we call that a turn measure (wildberger), and it has the
+property that 1 is a full rotation around the circle, and a 1/4 is a right
+angle. 
+
+We convert from the Turn measure to standard degrees by multiplying by 360
+degrees. There is also a European standard of gradians in which we scale by
+multiplying by 400. The primary mathematical measure used is that of radians.
+For this we multiply by $2\pi$. This latter measure has the distinct
+unpleasantness of any decimal representation having to be an approximate form.
+The main advantage of radians is that the trigonometric functions have
+particularly nice properties. 
+
+If we use these measures, then two adjacent angles have the property that the
+sum of their measures is the measure of the outside angle combining them. This
+is useful, but it does come at the price of imprecise measuring of angles
+since we can't really linearize the circular measure. Most of our measurements
+of angles actually come from inverting the trigonometric functions and
+measuring lengths.   (Is this really true)
+
+
+## Spread Measure
+
+Our alternate angle measurement is based on the idea of representing an angle
+with a right triangle. The basic thesis, which we will establish, 
+
 
 
 
